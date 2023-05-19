@@ -1,5 +1,5 @@
 require("dotenv").config();
-
+console.log(process.env.DATABASE_URL);
 module.exports = {
   development: {
     url: "postgres://novo_cryptoalert_user:W547inxp3dNl8UDldHfIv5Vg5kZe99en@dpg-ch9o14l269v0obbp2ltg-a.oregon-postgres.render.com/novo_cryptoalert",
